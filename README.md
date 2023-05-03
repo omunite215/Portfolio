@@ -96,7 +96,6 @@ If you have any feedback, please reach out to me at omunite21@gmail.com
 
 
 ## Authors
-- This project is made using tutorial of [Javascript Mastery](https://www.youtube.com/watch?v=ugCN_gynFYw&t=170s)
 
 - [@Om Patel](https://github.com/omunite215)
 

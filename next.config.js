@@ -3,6 +3,10 @@ const nextConfig = {
   experimental: {
     appDir: false,
   },
+  reactStrictMode: true,
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 }
 
 module.exports = nextConfig

@@ -6,7 +6,7 @@ import { NavLinks } from '../constants';
 import styles from '@/styles';
 import {navVariants} from '../utils/motion';
 import { motion } from 'framer-motion';
-import { Switcher } from './';
+import { Switcher } from '.';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -28,7 +28,7 @@ const Navbar = () => {
               key={items}
               className={` font-medium cursor-pointer text-[16px] text-slate-900 dark:text-stone-50 mr-8 `}
             >
-              <Link href={`/#${items}`} className='hover:text-PurpleTheme '>
+              <Link href={`/#${items}`} className='hover:text-PurpleTheme flex flex-col gap-y-1'>
                 {items}
               </Link>
             </li>
@@ -37,7 +37,7 @@ const Navbar = () => {
         <Link href="#Contact" className=' font-medium '>
           <button
             type="button"
-            className={` sm:block hidden text-center px-5 py-3 ${styles.buttonTransition} text-stone-50 dark:text-zinc-900 dark:hover:text-slate-900 rounded mr-10 `}
+            className={` sm:block hidden text-center px-5 py-3 transition ease-in-out delay-150 bg-PurpleTheme hover:-translate-y-1 hover:scale-110 hover:bg-PinkTheme duration-300 text-stone-50 dark:text-zinc-900 dark:hover:text-slate-900 rounded mr-10 `}
           >
             Contact
           </button>

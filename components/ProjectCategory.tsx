@@ -2,11 +2,11 @@
 
 import { useState } from "react";
 import { ProjectContentUI, ProjectContentWeb, WebUI } from "@/constants";
-import { ProjectCard } from "./";
+import { ProjectCard } from ".";
 
 const ProjectCategory = () => {
   const [activeButton, setactiveButton] = useState("All");
-  const activeString = "bg-slate-900 text-stone-50 dark:bg-stone-50 dark:text-slate-900 rounded-xl";
+  const activeString = "bg-PurpleTheme text-stone-50 dark:bg-stone-50 dark:text-slate-900 rounded-xl";
   const initialValues = {
     visible: false,
     text: "View More",
@@ -83,6 +83,7 @@ const ProjectCategory = () => {
                       link={projects.link}
                       icon={projects.icon}
                       category={projects.category}
+                      demoLink={projects.demoLink}
                     />
                   </div>
                 ))}
@@ -99,6 +100,7 @@ const ProjectCategory = () => {
                     link={projects.link}
                     icon={projects.icon}
                     category={projects.category}
+                    demoLink={projects.demoLink}
                   />
                 </div>
               ))}
@@ -115,6 +117,7 @@ const ProjectCategory = () => {
                     link={projects.link}
                     icon={projects.icon}
                     category={projects.category}
+                    demoLink={projects.demoLink}
                   />
                 </div>
               ))}
@@ -131,6 +134,7 @@ const ProjectCategory = () => {
                     link={projects.link}
                     icon={projects.icon}
                     category={projects.category}
+                    demoLink={projects.demoLink}
                   />
                 </div>
               ))}
@@ -142,7 +146,7 @@ const ProjectCategory = () => {
         <button
           type="button"
           id="viewMoreButton"
-          className="px-3 py-2 font-poppins font-medium rounded-md text-stone-50 bg-slate-900 dark:bg-stone-50 dark:text-slate-900"
+          className="px-3 py-2 font-poppins font-medium rounded transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-PurpleTheme duration-500 text-stone-50 bg-PinkTheme dark:text-slate-900"
           onClick={showMoreItems}
         >
           {visibility.text}

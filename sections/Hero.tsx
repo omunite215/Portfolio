@@ -27,9 +27,9 @@ const Hero = () => {
             </button>
           </div>
           <div className=' md:flex hidden mt-4 '>
-            <Link href="#Contact">
+            <Link href="https://mega.nz/file/eaYxXBYS#Nd8S-psXTClOJTvlWU9lPauA457tL4fycY1AC9AQC8Y" target="_blank">
             <button className={`px-5 py-3 dark:text-slate-900 text-stone-50 rounded font-poppins font-medium ${styles.buttonTransition} `}>
-              Hire Me
+              Download Resume
             </button>
             </Link>
           </div>

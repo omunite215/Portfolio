@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import styles from '@/styles';
 import { SkillCard } from '@/components'
 import Link from 'next/link'
+import Image from 'next/image';
 import { SkillsInfo } from '@/constants';
 import {FaCheckCircle} from 'react-icons/fa';
 
@@ -24,9 +25,9 @@ const Skills = () => {
       ))}
       </div>
       <motion.div className='md:w-[400px] w-[300px] flex flex-col md:items-start items-center md:text-left text-center md:space-y-3 space-y-6 text-slate-900 dark:text-stone-50' variants={slideIn("right", "tween", 0.2, 1.5)} initial="hidden" whileInView="show" >
-        <h1 className='font-semibold text-[28px]'>Solving problems by the <span className=' italic font-kepler text-PurpleTheme'>services</span></h1>
+        <h1 className='font-semibold text-[28px]'><span className=' italic font-kepler text-PurpleTheme'>Skills</span> Chart</h1>
         <p className='text-gray-500 font-normal w-[85%] text-left'>I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive experiences.</p>
-        <Link href="/"><button className={`${styles.buttonTransition} text-stone-50 dark:text-slate-900 font-medium font-poppins px-3 py-2`}>Learn More</button></Link>
+        <Link href="https://omthecreator.netlify.app" target='_blank' ><button className={`${styles.buttonTransition} text-stone-50 dark:text-slate-900 font-medium font-poppins px-3 py-2`}>UI/UX Design Portfolio</button></Link>
       </motion.div>
     </section>
   )

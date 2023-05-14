@@ -33,7 +33,7 @@ const Footer = () => {
         ))}
         </ul>
       </div>
-      <div className='w-full h-[2px] bg-slate-900 dark:bg-stone-50 rounded-full' />
+      <div className='w-full h-[1px] bg-slate-900 dark:bg-stone-50 rounded-full' />
     </motion.footer>
   )
 }

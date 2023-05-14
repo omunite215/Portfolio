@@ -1,6 +1,6 @@
-import styles from '../styles';
-import { Footer, Navbar, Carousel } from '../components';
-import { Hero, StatsDisplay, Work, Skills, Projects, Contact, SocialMedia, Recents, Certifications } from '../sections';
+import styles from '@/styles';
+import { Footer, Navbar, Carousel, Chart } from '@/components';
+import { Hero, StatsDisplay, Work, Skills, Projects, Contact, SocialMedia, Recents, Certifications } from '@/sections';
 
 export default function Page() {
   return (
@@ -40,6 +40,13 @@ export default function Page() {
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
           <div className={styles.boxWidth}>
             <Skills />
+          </div>
+        </div>
+      </div>
+      <div className={`${styles.flexCenter} bg-YellowPrimaryBg dark:bg-zinc-900`}>
+        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+          <div className={styles.boxWidth}>
+            <Chart/>
           </div>
         </div>
       </div>

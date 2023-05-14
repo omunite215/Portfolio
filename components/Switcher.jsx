@@ -1,7 +1,7 @@
 "use client";
 
 import {useState} from 'react';
-import {UseDarkSide} from './';
+import {UseDarkSide} from '.';
 
 const Switcher = () => {
     const [colorTheme, setTheme] = UseDarkSide();

@@ -95,7 +95,7 @@ const Contact = () => {
         </label>
         <button
           type="submit"
-          className=' font-semibold text-center px-5 py-3 bg-PurpleTheme text-stone-50 dark:text-slate-900 rounded '
+          className={`font-medium text-center px-5 py-3 ${styles.buttonTransition} text-stone-50 dark:text-slate-900 rounded`}
         >
           {loading ? "Sending..." : "Send"}
         </button>
@@ -110,7 +110,7 @@ const Contact = () => {
           I seek to push the limits of creativity to create high-engaging,
           user-friendly, and memorable interactive experiences
         </p>
-        <Link href="omunite21@gmail.com" className='mt-5 text-blue-600'>
+        <Link href="mailto:omunite21@gmail.com" className='mt-5 text-blue-600'>
           omunite21@gmail.com
         </Link>
       </motion.div>

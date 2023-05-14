@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import '../styles/globals.css';
 
-const MyApp = ({ Component, pageProps }) => (
+const MyApp = ({ Component, pageProps }:any) => (
   <>
     <Head>
       <title>Om's Portfolio</title>

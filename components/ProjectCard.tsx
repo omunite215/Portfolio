@@ -7,7 +7,7 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from '@/styles';
 
-const ProjectCard = ({title, description, imgURL, icon, category, link, demoLink}) => {
+const ProjectCard = ({title, description, imgURL, icon, category, link, demoLink}: any) => {
   return (
     <motion.div className="flex flex-col items-center gap-3 bg-white shadow-md dark:shadow-none dark:bg-zinc-900 pb-3 rounded-lg" variants={fadeIn('left', 'spring', 1, 1)}>
       <Image src={imgURL} height={200} width={300} alt="Project-Img" className="h-[200px] w-[300px] rounded"/>

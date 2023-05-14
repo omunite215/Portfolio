@@ -3,7 +3,7 @@ import styles from '@/styles';
 import {FiArrowUpRight} from 'react-icons/fi';
 import Link from 'next/link';
 
-const SkillCard = ({id, title, content}) => {
+const SkillCard = ({id, title, content}:any) => {
   return (
     <div className='sm:w-[480px] w-[300px] flex flex-col justify-start space-y-2 font-poppins dark:text-stone-50 text-slate-900'>
       <div className={`${styles.flexBetween} space-x-2 w-full`}>

@@ -1,5 +1,5 @@
 "use client";
-import { React, useState } from 'react';
+import { useState } from 'react';
 import styles from '@/styles';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
@@ -8,7 +8,7 @@ import '@splidejs/react-splide/css/sea-green';
 import { CertificateCard } from '.';
 import { CertificateContent } from '@/constants';
 
-const Carousel = (scrollStatus) => {
+const Carousel = () => {
   const [autoScroll, setAutoScroll] = useState(true);
 
   const handleAutoScroll = () => {

@@ -85,8 +85,8 @@ const Contact = () => {
           <span className=' text-PurpleTheme font-semibold '>Your Message</span>
           <textarea
             name="message"
-            cols="30"
-            rows="7"
+            cols={30}
+            rows={7}
             placeholder="Enter Project Details, any Portfolio improvements and suggestions."
             value={form.message}
             onChange={handleChange}

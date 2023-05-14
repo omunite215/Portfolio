@@ -5,7 +5,6 @@ import { motion } from 'framer-motion';
 import styles from '@/styles';
 import { SkillCard } from '@/components'
 import Link from 'next/link'
-import Image from 'next/image';
 import { SkillsInfo } from '@/constants';
 import {FaCheckCircle} from 'react-icons/fa';
 

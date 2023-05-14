@@ -3,7 +3,7 @@ import Image from 'next/image';
 import React from 'react';
 import styles from '@/styles';
 
-const CertificateCard = ({ title, description, imageURL, grade, gradeColor }) => {
+const CertificateCard = ({ title, description, imageURL, grade, gradeColor }:any) => {
   return (
     <div className="card font-poppins">
       <div className="card-info bg-white p-4 gap-2">

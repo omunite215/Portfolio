@@ -22,12 +22,7 @@ const Hero = () => {
             who seek to push the limits of creativity to create high-engaging,
             user-friendly, and memorable interactive experiences.
           </p>
-          <div className={`md:hidden ${styles.flexCenter} text-center mt-10`}>
-            <button className=' px-5 py-3 rounded text-white dark:text-slate-900 bg-PurpleTheme font-poppins font-medium '>
-              Hire Me
-            </button>
-          </div>
-          <div className=' md:flex hidden mt-4 '>
+          <div className='flex mt-4 md:justify-start justify-center items-center '>
             <Link href="https://mega.nz/file/eaYxXBYS#Nd8S-psXTClOJTvlWU9lPauA457tL4fycY1AC9AQC8Y" target="_blank">
             <button className={`px-5 py-3 dark:text-slate-900 text-stone-50 rounded font-poppins font-medium ${styles.buttonTransition} `}>
               Download Resume

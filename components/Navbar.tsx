@@ -54,11 +54,11 @@ const Navbar = () => {
             toggle ? 'flex' : 'hidden'
           } p-6 absolute top-20 right-0 mx-2 my-2 rounded-xl bg-PurpleTheme text-stone-50 dark:text-slate-900 `}
         >
-          <ul className={` ${styles.flexCenter} flex-col list-none gap-y-2 `}>
+          <ul className={` ${styles.flexCenter} flex-col list-none gap-y-3 `}>
             {NavLinks.map((items) => (
               <li
                 key={items}
-                className='font-medium cursor-pointer text-[16px]'
+                className='font-medium text-[16px]'
               >
                 <Link href={`/#${items}`} className='hover:text-PurpleTheme'>
                   {items}

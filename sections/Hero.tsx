@@ -18,8 +18,9 @@ const Hero = () => {
             through design
           </div>
           <p className='font-poppins md:w-[540px] w-[360px] font-medium text-[14px] text-gray-400'>
-            I seek to push the limits of creativity to create high-engaging,
-            user-friendly, and memorable interactive experiences
+            A UI / UX Designer and a Front-end Web Developer
+            who seek to push the limits of creativity to create high-engaging,
+            user-friendly, and memorable interactive experiences.
           </p>
           <div className={`md:hidden ${styles.flexCenter} text-center mt-10`}>
             <button className=' px-5 py-3 rounded text-white dark:text-slate-900 bg-PurpleTheme font-poppins font-medium '>

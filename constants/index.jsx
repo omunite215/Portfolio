@@ -273,7 +273,7 @@ import {
   export const CertificateContent = [
     {
       title: "Introduction: Programming",
-      description: "Design Sharing Profile",
+      description: "Programming Course",
       imgURL: "/Certificates/COURSERA/ITP.webp",
       grade: "81%",
       gradeColor: "#5E35B1",

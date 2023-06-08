@@ -1,22 +1,26 @@
 "use client";
 
-import {useState} from 'react';
-import {UseDarkSide} from '.';
+import { useTheme } from "next-themes";
+import { useState } from "react";
+
 
 const Switcher = () => {
-    const [colorTheme, setTheme] = UseDarkSide();
-    const [checked, setChecked] = useState(colorTheme === "dark"? false : true);
+  const { systemTheme, theme, setTheme } = useTheme();
+  const currentTheme = theme === 'system' ? systemTheme : theme;
+  const [checked, setchecked] = useState(currentTheme==='dark'? true: false);
+  const toggleDarkMode = () => {
+    if(theme === 'dark'){
+      setTheme('light');
+      setchecked(false);
+    }
+    else{
+      setTheme('dark');
+      setchecked(true);
+    }
+  }
     
   
-    const toggleDarkMode = () => {
-        setTheme(colorTheme);
-        if(colorTheme === "light"){
-            setChecked(false);
-        }
-        else{
-            setChecked(true);
-        }
-    };
+    
   return (
     <div>
       <label className="switch">
@@ -41,4 +45,4 @@ const Switcher = () => {
   )
 }
 
-export default Switcher
+export default Switcher;

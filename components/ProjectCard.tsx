@@ -9,7 +9,7 @@ import styles from '@/styles';
 
 const ProjectCard = ({title, description, imgURL, icon, category, link, demoLink}: any) => {
   return (
-    <motion.div className="flex flex-col items-center gap-3 bg-white shadow-md dark:shadow-none dark:bg-zinc-900 pb-3 rounded-lg" variants={fadeIn('left', 'spring', 1, 1)}>
+    <motion.div className="flex flex-col items-center gap-3 bg-white shadow-md dark:shadow-none dark:bg-zinc-900 pb-3 rounded-lg transition duration-300 hover:opacity-75" variants={fadeIn('left', 'spring', 1, 1)}>
       <Image src={imgURL} height={200} width={300} alt="Project-Img" className="h-[200px] w-[300px] rounded"/>
       <div className={`w-full ${styles.flexStart} text-left mx-1`}>
         <div className="flex flex-col justify-items-start items-start gap-1 px-2">
@@ -18,12 +18,12 @@ const ProjectCard = ({title, description, imgURL, icon, category, link, demoLink
         </div>
         <div className='flex flex-1 gap-2'>
         <Link href={link}>
-        <button type="button" className="p-3 rounded-full bg-PurpleTheme">
+        <button type="button" className="p-3 rounded-full bg-PurpleTheme hover:bg-PinkTheme">
         {icon}
         </button>
         </Link>
         <Link href={demoLink}>
-        <button type="button" className="p-3 rounded-full bg-PurpleTheme">
+        <button type="button" className="p-3 rounded-full bg-PurpleTheme hover:bg-PinkTheme">
         <BsFillLightbulbFill color='#FFFF00'/>
         </button>
         </Link>

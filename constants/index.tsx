@@ -174,17 +174,17 @@ import {
   
   export const SkillsInfo = [
     {
-      id: "01",
+      id: 1,
       title: "UI/UX Design",
       skills: ["Web Design", "App Design", "Dashboard Design"],
     },
     {
-      id: "02",
+      id: 2,
       title: "Development",
       skills: ["Front-End Web Development"],
     },
     {
-      id: "03",
+      id: 3,
       title: "English Proficiency",
       skills: ["Content Writing", "Element Management"],
     },

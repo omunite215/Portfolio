@@ -50,6 +50,7 @@ const Carousel = () => {
           },
         }}
         extensions={{ AutoScroll }}
+        className='snap-center'
       >
         <SplideSlide>
           <CertificateCard

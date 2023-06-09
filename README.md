@@ -1,6 +1,6 @@
 # Om's Portfolio
 
-![Screenshot 2023-05-03 122704](https://user-images.githubusercontent.com/78680563/235850317-097d71db-487e-4899-8282-bdcbce6f5caf.png)
+![om](https://github.com/omunite215/Portfolio/assets/78680563/b999a0c8-9229-44ef-a570-22217a6227d5)
 
 This is my Portfolio project using Next.Js
 

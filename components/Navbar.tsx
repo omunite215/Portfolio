@@ -60,7 +60,7 @@ const Navbar = () => {
                 key={items}
                 className='font-medium text-[16px]'
               >
-                <Link href={`/#${items}`} className='hover:text-PurpleTheme'>
+                <Link href={`/#${items}`}>
                   {items}
                 </Link>
               </li>

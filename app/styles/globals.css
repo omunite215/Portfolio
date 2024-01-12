@@ -1,0 +1,306 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://use.typekit.net/mrw8pnp.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,500&display=swap');
+
+html {
+  --scroll-behavior: smooth!important;
+  scroll-behavior: smooth!important;
+  }
+
+  .card {
+    --background: linear-gradient(90deg, rgba(251,87,139,1) 0%, rgba(170,119,251,1) 100%);
+    width: 372px;
+    height: 351px;
+    padding: 6px;
+    border-radius: 1rem;
+    overflow: visible;
+    background: #aa77fb;
+    background: var(--background);
+    position: relative;
+    z-index: 1;
+   }
+   
+   .card::after {
+    position: absolute;
+    content: "";
+    top: 30px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    transform: scale(0.8);
+    filter: blur(25px);
+    background: #fb578b;
+    background: var(--background);
+    transition: opacity .5s;
+   }
+   
+   .card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    border-radius: .7rem;
+   }
+   
+   .card .title {
+    font-weight: bold;
+    letter-spacing: .1em;
+   }
+   
+   /*Hover*/
+   .card:hover::after {
+    opacity: 0;
+   }
+   
+   .card:hover .card-info {
+    transition: color 2s;
+   }
+   
+   .switch {
+    --circle-dim: 1.4em;
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 3.5em;
+    height: 2em;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f5aeae;
+    transition: .4s;
+    border-radius: 30px;
+  }
+  
+  .slider-card {
+    position: absolute;
+    content: "";
+    height: var(--circle-dim);
+    width: var(--circle-dim);
+    border-radius: 20px;
+    left: 0.3em;
+    bottom: 0.3em;
+    transition: .4s;
+    pointer-events: none;
+  }
+  
+  .slider-card-face {
+    position: absolute;
+    inset: 0;
+    backface-visibility: hidden;
+    perspective: 1000px;
+    border-radius: 50%;
+    transition: .4s transform;
+  }
+  
+  .slider-card-front {
+    background-color: #DC3535;
+  }
+  
+  .slider-card-back {
+    background-color: #379237;
+    transform: rotateY(180deg);
+  }
+  
+  input:checked ~ .slider-card .slider-card-back {
+    transform: rotateY(0);
+  }
+  
+  input:checked ~ .slider-card .slider-card-front {
+    transform: rotateY(-180deg);
+  }
+  
+  input:checked ~ .slider-card {
+    transform: translateX(1.5em);
+  }
+  
+  input:checked ~ .slider {
+    background-color: #9ed99c;
+  }
+
+/* Dark mode Switch CSs */
+.switch {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 64px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.sliderSwitch {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #73C0FC;
+  transition: .4s;
+  border-radius: 30px;
+}
+
+.sliderSwitch:before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  left: 2px;
+  bottom: 2px;
+  z-index: 2;
+  background-color: #e8e8e8;
+  transition: .4s;
+}
+
+.sun svg {
+  position: absolute;
+  top: 6px;
+  left: 36px;
+  z-index: 1;
+  width: 24px;
+  height: 24px;
+}
+
+.moon svg {
+  fill: #512DA8;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 1;
+  width: 24px;
+  height: 24px;
+}
+
+/* .switch:hover */.sun svg {
+  animation: rotate 15s linear infinite;
+}
+
+@keyframes rotate {
+ 
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* .switch:hover */.moon svg {
+  animation: tilt 5s linear infinite;
+}
+
+@keyframes tilt {
+ 
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-10deg);
+  }
+
+  75% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.input:checked + .sliderSwitch {
+  background-color: #aa77fb;
+}
+
+.input:focus + .sliderSwitch {
+  box-shadow: 0 0 1px #183153;
+}
+
+.input:checked + .sliderSwitch:before {
+  transform: translateX(30px);
+}
+
+@layer utilities {
+  /* Styles */
+  .text-LimeTheme{
+    @apply text-LimeTheme;
+  }
+  .text-RoseTheme{
+    @apply text-RoseTheme;
+  }
+  .text-AmberTheme{
+    @apply text-AmberTheme;
+  }
+  .text-GreenTheme{
+    @apply text-GreenTheme;
+  }
+  .boxWidth {
+    @apply xl:max-w-[1280px] w-full;
+  }
+  .heading2 {
+    @apply font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full;
+  }
+  .paragraph {
+    @apply font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px];
+  }
+  .flexCenter {
+    @apply flex justify-center items-center;
+  }
+  .flexStart {
+    @apply flex justify-center items-start;
+  }
+  .flexBetween {
+    @apply flex justify-between items-center;
+  }
+  .flexEnd {
+    @apply flex justify-end items-center;
+  }
+  .widthYPadding {
+    @apply w-full py-6;
+  }
+  .buttonTransition {
+    @apply transition ease-in-out delay-150 bg-PurpleTheme hover:-translate-y-1 hover:scale-110 hover:bg-PinkTheme duration-300;
+  }
+  .paddingX {
+    @apply sm:px-16 px-6;
+  }
+  .paddingY {
+    @apply sm:py-16 py-6;
+  }
+  .padding {
+    @apply sm:px-16 px-6 sm:py-12 py-4;
+  }
+  .marginX {
+    @apply sm:mx-16 mx-6;
+  }
+  .marginY {
+    @apply sm:my-16 my-6;
+  }
+}

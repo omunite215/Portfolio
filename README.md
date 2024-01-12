@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Om's Portfolio
 
-## Getting Started
+![om](https://github.com/omunite215/Portfolio/assets/78680563/b999a0c8-9229-44ef-a570-22217a6227d5)
 
-First, run the development server:
+This is my Portfolio project using Next.Js
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+A website which made using Next.js, Framermotion, TailwindCSS, email.js and TypeScript resulting in a stunning portfolio website.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠 Skills
+Javascript, HTML, CSS, Next.JS, Typescript, framermotion, Email.js and Tailwind.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Built With:
 
-To learn more about Next.js, take a look at the following resources:
+- Next.JS - A JavaScript library based on React for building Full stack Web Apps.
+- TypeScript - TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
+- Framermotion - A production ready animation library
+- Tailwind - A Modern CSS framework
+- Email.js - a Javascript library for email integration
+- HTML - Standard markup language for creating web pages
+- CSS - Style sheet language used for describing the look and formatting of a document written in HTML.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Modern UI/UX.
+- Typescript.
+- Smooth animations.
+- Lazy Image Loading.
+- Optimized.
+- Responsive.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Client:** Next.JS, TailwindCSS, Framermotion, Email.js.
+
+**Server:** Netlify
+
+
+## 🚀 About Me
+Front - End Web Development Enthusiast
+Specializations:
+- UI/UX Design.
+- Full Stack Web Development
+
+## Authors
+
+- [@Om Patel](https://github.com/omunite215)
+
+<p align="center">
+  <img src="https://github.com/omunite215/Portfolio/assets/78680563/e321bc88-228d-477c-8878-5366526ed567" alt="Om's Logo Image"/>
+</p>

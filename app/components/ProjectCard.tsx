@@ -19,7 +19,7 @@ const ProjectCard = ({
 }: ProjectCardProps) => {
   return (
     <motion.div
-      className="flex flex-col items-center gap-3 bg-white shadow-md dark:shadow-none dark:bg-zinc-900 pb-3 rounded-lg transition duration-300 hover:opacity-75"
+      className="flex flex-col items-center gap-3 bg-white shadow-md dark:shadow-none dark:bg-zinc-900 pb-3 rounded-lg transition duration-300 max-w-[450px]"
       variants={fadeIn("left", "spring", 1, 1)}
     >
       <Image
@@ -27,7 +27,7 @@ const ProjectCard = ({
         height={200}
         width={300}
         alt="Project-Img"
-        className="h-[200px] w-full rounded"
+        className="w-full rounded object-contain"
         priority={true}
       />
       <div className="w-full flexBetween text-left px-2">
@@ -38,7 +38,7 @@ const ProjectCard = ({
           <p className=" font-poppins font-normal text-[14px] text-gray-500">
             {description}&nbsp;[{category}]
           </p>
-          <ul className=" flex flex-wrap gap-1 justify-evenly items-center w-fit">
+          <ul className=" flex flex-wrap gap-1 justify-evenly items-center w-fit text-GreenTheme">
             {tags?.map((item) => (
               <li className={`text-${item.color} font-medium`} key={item.name}>
                 #{item.name}

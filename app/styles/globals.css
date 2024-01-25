@@ -249,18 +249,6 @@ html {
 
 @layer utilities {
   /* Styles */
-  .text-LimeTheme{
-    @apply text-LimeTheme;
-  }
-  .text-RoseTheme{
-    @apply text-RoseTheme;
-  }
-  .text-AmberTheme{
-    @apply text-AmberTheme;
-  }
-  .text-GreenTheme{
-    @apply text-GreenTheme;
-  }
   .boxWidth {
     @apply xl:max-w-[1280px] w-full;
   }

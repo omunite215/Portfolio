@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <motion.nav
-      className="w-full flexBetween widthYPadding flex-1"
+      className="w-full flexBetween widthYPadding sm:px-0 px-6 flex-1"
       variants={navVariants}
       initial="hidden"
       whileInView="show"

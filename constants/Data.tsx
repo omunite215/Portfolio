@@ -229,11 +229,11 @@ export const ProjectContentWeb = [
     icon: <AiFillGithub color="white" />,
     tags: [
       {
-        name: "react",
+        name: "Next",
         color: "PurpleTheme",
       },
       {
-        name: "tailwind",
+        name: "Tailwind",
         color: "LimeTheme",
       },
       {
@@ -317,11 +317,11 @@ export const ProjectContentWeb = [
     icon: <AiFillGithub color="white" />,
     tags: [
       {
-        name: "LimeTheme",
+        name: "Next",
         color: "PurpleTheme",
       },
       {
-        name: "tailwind",
+        name: "Tailwind",
         color: "Green",
       },
       {
@@ -340,7 +340,7 @@ export const ProjectContentWeb = [
     icon: <AiFillGithub color="white" />,
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "PurpleTheme",
       },
       {
@@ -363,7 +363,7 @@ export const ProjectContentWeb = [
     icon: <AiFillGithub color="white" />,
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "RoseTheme",
       },
       {
@@ -371,7 +371,7 @@ export const ProjectContentWeb = [
         color: "PurpleTheme",
       },
       {
-        name: "RapidAPI",
+        name: "QuotesAPI",
         color: "Green",
       },
     ],
@@ -386,15 +386,15 @@ export const ProjectContentWeb = [
     icon: <AiFillGithub color="white" />,
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "PurpleTheme",
       },
       {
-        name: "tailwind",
+        name: "Tailwind",
         color: "PinkTheme",
       },
       {
-        name: "three.js",
+        name: "Threejs",
         color: "AmberTheme",
       },
     ],

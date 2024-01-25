@@ -41,7 +41,7 @@ const Hero = () => {
           alt="Hero-Picture"
           width={0}
           height={0}
-          className=" md:mb-14 md:h-auto md:w-auto h-[75%] width-[50%] "
+          className=" md:mb-14 md:h-auto md:w-auto h-[75%] w-[50%]"
           variants={slideIn("right", "tween", 0.2, 1.5)}
           initial="hidden"
           whileInView="show"

@@ -64,8 +64,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className={`flexCenter bg-YellowPrimaryBg dark:bg-zinc-900`}>
-        <div className={`paddingX flexCenter`}>
+      <div className={"flexCenter bg-YellowPrimaryBg dark:bg-zinc-900"}>
+        <div className={"paddingX flexCenter"}>
           <div className="boxWidth">
             <Certifications />
           </div>
@@ -78,26 +78,26 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className={`flexCenter bg-stone-50 dark:bg-zinc-950`}>
-        <div className={`paddingX flexCenter`}>
+      <div className={"flexCenter bg-stone-50 dark:bg-zinc-950"}>
+        <div className={"paddingX flexCenter"}>
           <div className="boxWidth">
             <Contact />
           </div>
         </div>
       </div>
-      <div className={`flexCenter bg-StrongYellowBg dark:bg-zinc-900`}>
-        <div className={`paddingX flexCenter`}>
+      <div className={"flexCenter bg-StrongYellowBg dark:bg-zinc-900"}>
+        <div className={"paddingX flexCenter"}>
           <div className="boxWidth">
             <SocialMedia />
           </div>
         </div>
       </div>
-      <div className={`flexCenter bg-StrongYellowBg dark:bg-zinc-900`}>
-        <div className={`paddingX flexCenter`}>
+      <div className={"flexCenter bg-StrongYellowBg dark:bg-zinc-900"}>
+        <div className={"paddingX flexCenter"}>
           <div className="boxWidth">
             <Footer />
             <div
-              className={`flexCenter py-6 text-PurpleTheme font-poppins font-semibold flex-wrap`}
+              className={"flexCenter py-6 text-PurpleTheme font-poppins font-semibold flex-wrap"}
             >
               Made with 💖 by Om Patel
             </div>

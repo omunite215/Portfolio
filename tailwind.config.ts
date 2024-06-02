@@ -8,6 +8,10 @@ const config: Config = {
   ],
   darkMode: "class",
   theme: {
+    container: {
+      center: true,
+      padding: "2rem"
+    },
     extend: {
       animation: {
         'spin-slow': 'spin 3s linear infinite',

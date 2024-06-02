@@ -35,6 +35,7 @@ const Carousel = () => {
             type: "loop",
             drag: "free",
             focus: "center",
+            padding: { left: "20%" },
             arrows: false,
             pagination: false,
             perPage: 2,

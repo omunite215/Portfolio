@@ -5,9 +5,8 @@ import { useState } from "react";
 
 const ThemeSwitch = () => {
   const { systemTheme, theme, setTheme } = useTheme();
-  const currentTheme = theme === "system" ? systemTheme : theme;
   const [checked, setChecked] = useState(
-    currentTheme === "dark" ? true : false
+    systemTheme  === "dark"
   );
 
   const toggleDarkMode = () => {

@@ -1,7 +1,6 @@
 # Om's Portfolio
 
 ## Redevelopment!!
-### This project will undergo UI and Data Changes.
 
 ![om](https://github.com/omunite215/Portfolio/assets/78680563/b999a0c8-9229-44ef-a570-22217a6227d5)
 

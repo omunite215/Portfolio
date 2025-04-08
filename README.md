@@ -21,23 +21,7 @@ Javascript, HTML, CSS, Next.JS, Typescript, framermotion, Email.js and Tailwind.
 - Tailwind - A Modern CSS framework
 - Email.js - a Javascript library for email integration
 - HTML - Standard markup language for creating web pages
-- CSS - Style sheet language used for describing the look and formatting of a document written in HTML.
-
-## Features
-
-- Modern UI/UX.
-- Typescript.
-- Smooth animations.
-- Lazy Image Loading.
-- Optimized.
-- Responsive.
-
-
-## Tech Stack
-
-**Client:** Next.JS, TailwindCSS, Framermotion, Email.js.
-
-**Server:** Netlify
+- CSS - Style sheet language used for describing the look and formatting.
 
 
 ## 🚀 About Me

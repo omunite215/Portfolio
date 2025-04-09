@@ -12,18 +12,6 @@ A website which made using Next.js, Framermotion, TailwindCSS, email.js and Type
 ## 🛠 Skills
 Javascript, HTML, CSS, Next.JS, Typescript, framermotion, Email.js and Tailwind.
 
-
-## Built With:
-
-- Next.JS - A JavaScript library based on React for building Full stack Web Apps.
-- TypeScript - TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
-- Framermotion - A production ready animation library
-- Tailwind - A Modern CSS framework
-- Email.js - a Javascript library for email integration
-- HTML - Standard markup language for creating web pages
-- CSS - Style sheet language used for describing the look and formatting.
-
-
 ## 🚀 About Me
 Front - End Web Development Enthusiast
 Specializations:

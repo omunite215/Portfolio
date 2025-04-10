@@ -6,9 +6,6 @@
 
 This is my Portfolio project using Next.Js
 
-A website which made using Next.js, Framermotion, TailwindCSS, email.js and TypeScript resulting in a stunning portfolio website.
-
-
 ## 🛠 Skills
 Javascript, HTML, CSS, Next.JS, Typescript, framermotion, Email.js and Tailwind.
 
